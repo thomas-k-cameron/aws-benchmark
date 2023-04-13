@@ -5,9 +5,9 @@ edition = "2021"
 
 [workspace]
 members = [
-    "./compiletime-benchmark-remove",
-    "./compiletime-benchmark-common",
-    "./compiletime-benchmark-setup",
+    "./aws-benchmark-remove",
+    "./aws-benchmark-common",
+    "./aws-benchmark-setup",
 ]
 exclude = ["./serde-aws-sdk"]
 
