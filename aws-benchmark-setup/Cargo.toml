@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-compiletime-benchmark-common = {path = "../aws-benchmark-common"}
+aws-benchmark-common = {path = "../aws-benchmark-common"}
 
 aws-sdk-batch = { features = ["serde-serialize", "serde-deserialize"], path ="../serde-aws-sdk/sdk/batch" }
 aws-sdk-ec2 = { features = ["serde-serialize", "serde-deserialize"], path ="../serde-aws-sdk/sdk/ec2" }

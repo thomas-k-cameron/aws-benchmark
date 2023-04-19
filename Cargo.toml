@@ -4,12 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = [
-    "./aws-benchmark-remove",
-    "./aws-benchmark-common",
-    "./aws-benchmark-setup",
-]
 exclude = ["./serde-aws-sdk"]
 
-[build]
-rustflags = ["--cfg", "aws_sdk_unstable"]
+[dependencies]
+aws-benchmark-remove = { path = "./aws-benchmark-remove" }
+aws-benchmark-common = { path = "./aws-benchmark-common" }
+aws-benchmark-setup = { path = "./aws-benchmark-setup" }

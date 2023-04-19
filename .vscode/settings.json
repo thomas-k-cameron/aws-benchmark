@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./aws-benchmark-common/Cargo.toml"
+    ]
+}

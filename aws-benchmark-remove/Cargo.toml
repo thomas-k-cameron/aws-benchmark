@@ -9,7 +9,7 @@ edition = "2021"
 aws-sdk-cloudcontrol = { features = ["serde-serialize", "serde-deserialize"], path ="../serde-aws-sdk/sdk/cloudcontrol" }
 aws-sdk-resourceexplorer2 = { features = ["serde-serialize", "serde-deserialize"], path ="../serde-aws-sdk/sdk/resourceexplorer2" }
 aws-config = { path ="../serde-aws-sdk/sdk/aws-config" }
-compiletime-benchmark-common = {path = "../aws-benchmark-common"}
+aws-benchmark-common = {path = "../aws-benchmark-common"}
 env_logger = "0.10.0"
 serde = { version = "1.0.152", features = ["derive"] }
 serde_json = "1.0.91"
