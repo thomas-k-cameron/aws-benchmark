@@ -1,3 +1,6 @@
+# THIS PROJECT IS NOT FINISHED YET!
+IT SHOULD NOT WORK.
+
 ## Rust Code
 It sets up necessary resources on AWS.  
 `./serde-aws-sdk` directory has a aws code with serde implemented.  
